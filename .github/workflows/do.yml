@@ -11,6 +11,7 @@ jobs:
 
       - name: download
         run: |
+          sudo apt-get install ffmpeg
           git config --local user.email "jkvdsp@gmail.com"
           git config --local user.name "Heraldik"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
