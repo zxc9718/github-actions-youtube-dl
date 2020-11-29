@@ -2,6 +2,13 @@
 
 使用 GitHub Actions 下载 YouTube 最高画质视频，并自动发布到 Release。
 
+
+## 注意！
+
+**请大家下载完成后尽量删除 Release 中不用的文件**
+
+**善待 GitHub**
+
 ## 使用
 
 - Fork 本仓库 或者 Use this template。
