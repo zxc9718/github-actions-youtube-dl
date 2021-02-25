@@ -15,7 +15,7 @@ jobs:
           sudo apt-get install ffmpeg curl -y
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          curl -L https://github.com/ytdl-org/youtube-dl/releases/latest/download/youtube-dl -o ./
+          curl -LJO https://github.com/ytdl-org/youtube-dl/releases/latest/download/youtube-dl
           chmod +x ./youtube-dl
           ./youtube-dl --config-location config.txt
           tar -czvf downloads.tar.gz downloads/*.mp4
