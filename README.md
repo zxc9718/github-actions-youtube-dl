@@ -33,7 +33,7 @@
 
 ## License
 
-[MIT](https://github.com/Heraldik/github-actions-youtube-dl/blob/main/LICENSE) © Heraldik
+[MIT](https://github.com/Heraldik/github-actions-youtube-dl/blob/main/LICENSE) © hw431
 
 ## 鸣谢
 
