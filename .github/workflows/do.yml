@@ -19,6 +19,7 @@ jobs:
           chmod +x ./youtube-dl
           ./youtube-dl --config-location config.txt
           tar -czvf downloads.tar.gz downloads/*.mp4
+          cat playlist.txt >> body.md
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -27,6 +28,7 @@ jobs:
         with:
           tag_name: ${{ github.run_id }}
           release_name: Release ${{ github.ref }}
+          body_file: body.md
           draft: false
           prerelease: false
       - name: Upload Release Asset
