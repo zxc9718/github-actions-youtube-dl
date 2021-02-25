@@ -12,11 +12,12 @@ jobs:
       - name: download
         run: |
           sudo apt-get update
-          sudo apt-get install ffmpeg
+          sudo apt-get install ffmpeg curl -y
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          chmod +x ./bin/youtube-dl
-          ./bin/youtube-dl --config-location config.txt
+          curl -L https://github.com/ytdl-org/youtube-dl/releases/latest/download/youtube-dl -o ./
+          chmod +x ./youtube-dl
+          ./youtube-dl --config-location config.txt
           tar -czvf downloads.tar.gz downloads/*.mp4
       - name: Create Release
         id: create_release
