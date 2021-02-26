@@ -17,9 +17,9 @@ jobs:
           git pull --rebase
           curl -LJO https://github.com/ytdl-org/youtube-dl/releases/latest/download/youtube-dl
           chmod +x ./youtube-dl
-          ./youtube-dl --config-location config.txt
+          ./youtube-dl --config-location dl.conf
           tar -czvf downloads.tar.gz downloads/*.mp4
-          cat playlist.txt >> body.md
+          cat play.list >> body.md
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1

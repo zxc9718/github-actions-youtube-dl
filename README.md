@@ -21,8 +21,8 @@
 
 ![image-20201128114243884](README.assets/image-20201128114243884.png)
 
-3. *按需更改 config.txt 中的内容（非必要步骤，可以在此调整 youtube-dl 的下载参数）*。
-4. 将你要下载的 YouTube 视频的地址填进 **playlist.txt** 中，每行限一个视频链接，commit push 提交。
+3. *按需更改 dl.conf 中的内容（非必要步骤，可以在此调整 youtube-dl 的下载参数）*。
+4. 将你要下载的 YouTube 视频的地址填进 **play.list** 中，每行限一个视频链接，commit push 提交。
 
 ![image-20201128121024007](README.assets/image-20201128121024007.png)
 
