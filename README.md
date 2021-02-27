@@ -15,7 +15,7 @@
 
 1. Fork 本仓库。
 
-![image-20201128114406344](README.assets/image-20201128114406344.png)
+![image-20201128114406344](README.assets/image-20201128114406345.png)
 
 2. 创建好自己的仓库后，在 Actions 中启用 GitHub Actions。
 
