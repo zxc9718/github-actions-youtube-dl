@@ -13,13 +13,15 @@
 
 ## 使用
 
-1. Fork 本仓库 或者 Use this template。
+1. Fork 本仓库。
 
 ![image-20201128114406344](README.assets/image-20201128114406344.png)
 
-2. 创建好自己的仓库后，在 Actions 中启用 GitHub Actions（Use this template 默认启用）。
+2. 创建好自己的仓库后，在 Actions 中启用 GitHub Actions。
 
 ![image-20201128114243884](README.assets/image-20201128114243884.png)
+
+![image-20210227151337588](README.assets/image-20210227151337588.png)
 
 3. *按需更改 dl.conf 中的内容（非必要步骤，可以在此调整 youtube-dl 的下载参数）*。
 4. 将你要下载的 YouTube 视频的地址填进 **play.list** 中，每行限一个视频链接，commit push 提交。
