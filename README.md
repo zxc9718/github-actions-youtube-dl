@@ -33,6 +33,15 @@
 
 ![image-20201128114604022](README.assets/image-20201128114604022.png)
 
+
+## 计划中
+
+- [x] 使用 GitHub Action 下载视频
+- [x] 从列表中下载多个视频
+- [x] 自定义配置
+- [ ] 使用分卷压缩上传多个文件以解除 Release 文件 2G 大小的限制
+
+
 ## License
 
 [MIT](https://github.com/Heraldik/github-actions-youtube-dl/blob/main/LICENSE) © hw431
